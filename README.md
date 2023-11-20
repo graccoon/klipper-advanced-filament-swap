@@ -1,4 +1,7 @@
-# Advanced Filament Swap for Mainsail
+# Advanced Filament Swap for Mainsail WIP
+## Why to fork?
+Cudos to original author making this kind of hard work all on his own trying to befriend gui and gcodes. But it's begging for some changes.
+Original macros were written in the way you couldn't change parameters midprint. Also I cann't understand why to use so much filament (150mm) for each change when you have possibility to purge more if necessary and to write in buggy gcode not utilizing (UN)LOAD_FILAMENT macros that work on any machine they were preconfigured (and/or changed by user to desired state). Also GUI is not working on fluidd (btw console messages are great and pretty sufficient for me, but it,s better to change it if i can).
 ## Guided M600 filament changes and filament run-outs for Mainsail.
 
 This is my advanced filament swap script for Mainsail (possibly also compatible with Fluids??). It allows for guided pop-up alerts on run-out and M600 events, with a fluid UI suitable for all screen sizes.
